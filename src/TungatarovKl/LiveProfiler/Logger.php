@@ -1,10 +1,6 @@
 <?php
 
-/**
- * @maintainer Timur Shagiakhmetov <timur.shagiakhmetov@corp.badoo.com>
- */
-
-namespace Badoo\LiveProfiler;
+namespace TungatarovKl\LiveProfiler;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\LoggerTrait;

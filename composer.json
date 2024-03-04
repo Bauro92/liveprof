@@ -1,8 +1,7 @@
 {
-  "name": "badoo/liveprof",
+  "name": "tungatarov-kl/liveprof",
   "type": "library",
   "description": "A performance monitoring system for running on live sites",
-  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
@@ -10,9 +9,9 @@
     }
   ],
   "require": {
-    "php": ">=5.4",
-    "doctrine/dbal": "~2.0",
-    "psr/log": "~1.0",
+    "php": ">=8.0",
+    "doctrine/dbal": "~2.0|~3.0",
+    "psr/log": "~1.0|~2.0|~3.0",
     "ext-json": "*",
     "ext-zlib": "*",
     "ext-curl": "*"
@@ -22,9 +21,9 @@
   },
   "autoload": {
     "psr-4": {
-      "Badoo\\LiveProfiler\\": "src/Badoo/LiveProfiler"}
+      "TungatarovKl\\LiveProfiler\\": "src/TungatarovKl/LiveProfiler"}
   },
   "autoload-dev": {
-    "psr-4": {"unit\\Badoo\\": "tests/unit/Badoo"}
+    "psr-4": {"unit\\TungatarovKl\\": "tests/unit/TungatarovKl"}
   }
 }

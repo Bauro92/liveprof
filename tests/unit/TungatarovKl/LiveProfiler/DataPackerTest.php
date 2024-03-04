@@ -1,12 +1,8 @@
 <?php
 
-/**
- * @maintainer Timur Shagiakhmetov <timur.shagiakhmetov@corp.badoo.com>
- */
+namespace unit\TungatarovKl\LiveProfiler;
 
-namespace unit\Badoo\LiveProfiler;
-
-class DataPackerTest extends \unit\Badoo\BaseTestCase
+class DataPackerTest extends \unit\TungatarovKl\BaseTestCase
 {
     public function testPack()
     {

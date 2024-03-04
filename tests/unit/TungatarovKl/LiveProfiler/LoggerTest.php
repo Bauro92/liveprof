@@ -1,12 +1,8 @@
 <?php
 
-/**
- * @maintainer Timur Shagiakhmetov <timur.shagiakhmetov@corp.badoo.com>
- */
+namespace unit\TungatarovKl\LiveProfiler;
 
-namespace unit\Badoo\LiveProfiler;
-
-class LoggerTest extends \unit\Badoo\BaseTestCase
+class LoggerTest extends \unit\TungatarovKl\BaseTestCase
 {
     /**
      * @throws \ReflectionException

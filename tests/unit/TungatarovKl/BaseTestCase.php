@@ -1,10 +1,6 @@
 <?php
 
-/**
- * @maintainer Timur Shagiakhmetov <timur.shagiakhmetov@corp.badoo.com>
- */
-
-namespace unit\Badoo;
+namespace unit\TungatarovKl;
 
 class BaseTestCase extends \PHPUnit\Framework\TestCase
 {
