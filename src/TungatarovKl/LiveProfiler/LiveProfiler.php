@@ -186,7 +186,6 @@ class LiveProfiler
     public function useXhprofSample()
     {
         if ($this->is_enabled) {
-            $this->Logger->warning('can\'t change profiler after profiling started');
             return $this;
         }
 
